@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="671.0" prefWidth="867.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="alquilafacil.controller.RegistroAlquilerController">
+    <children>
+        <Label layoutX="304.0" layoutY="14.0" text="Registro de alquiler">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <DatePicker fx:id="dateInicio" layoutX="196.0" layoutY="54.0" />
+        <Label layoutX="73.0" layoutY="58.0" text="Fecha del alquiler :" />
+        <Label layoutX="101.0" layoutY="118.0" text="Cedula :" />
+        <TextField fx:id="txtCedulaCliente" layoutX="196.0" layoutY="114.0" promptText="ingrese su cedula" />
+        <Button fx:id="btnRegistrarAlquiler" layoutX="209.0" layoutY="155.0" mnemonicParsing="false" onAction="#registrarAlquilerEvent" text="Registrar Alquiler" />
+        <Label layoutX="73.0" layoutY="88.0" text="Fecha final de alquiler:" />
+        <DatePicker fx:id="dateFinal" layoutX="196.0" layoutY="84.0" />
+        <TableView fx:id="tableVehiculos" layoutX="521.0" layoutY="50.0" prefHeight="154.0" prefWidth="301.0">
+            <columns>
+                <TableColumn fx:id="columReferencia" prefWidth="75.0" text="Referencia" />
+                <TableColumn fx:id="columModelo" prefWidth="70.0" text="Modelo" />
+                <TableColumn fx:id="columPlaca" text="Placa" />
+                <TableColumn fx:id="columPrecioDia" prefWidth="75.0" text="Precio dia" />
+            </columns>
+        </TableView>
+
+        <TableView fx:id="tableAlquiladosFecha" layoutX="521.0" layoutY="255.0" prefHeight="154.0" prefWidth="301.0">
+            <columns>
+                <TableColumn fx:id="columCliente" prefWidth="75.0" text="Propietario" />
+                <TableColumn fx:id="columVehiculo" prefWidth="70.0" text="Referencia" />
+                <TableColumn fx:id="columFechaInicio" text="Fecha inicio" />
+                <TableColumn fx:id="columFechaFin" prefWidth="75.0" text="Fecha fin" />
+            </columns>
+        </TableView>
+        <Button fx:id="btnVolver" layoutX="752.0" layoutY="629.0" mnemonicParsing="false" onAction="#volverEvent" text="Volver a menu" />
+        <Separator layoutY="241.0" prefHeight="2.0" prefWidth="845.0" />
+        <Label layoutX="20.0" layoutY="242.0" text="Buscar vehículos alquilados en un rango de fechas especifico.">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="311.0" text="Fecha de inicio:" />
+        <Label layoutX="68.0" layoutY="349.0" text="Fecha final:" />
+        <Label layoutX="53.0" layoutY="269.0" text="Seleccione el rango de fechas en las que desea saber mas informacion" />
+        <DatePicker fx:id="dateInicioInfo" layoutX="164.0" layoutY="307.0" />
+        <DatePicker fx:id="dateFinalInfo" layoutX="164.0" layoutY="345.0" />
+        <Button fx:id="btnBuscarInfo" layoutX="171.0" layoutY="397.0" mnemonicParsing="false" onAction="#BuscarInfoEvent" text="Buscar" />
+        <Button fx:id="btnEliminarV" layoutX="617.0" layoutY="208.0" mnemonicParsing="false" onAction="#eliminarEvent" text="Eliminar Vehiculo" />
+      <Separator layoutX="1.0" layoutY="449.0" prefHeight="3.0" prefWidth="845.0" />
+      <Label layoutX="87.0" layoutY="463.0" text="Marca más codiciada.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+        <Button fx:id="btnbuscar1" layoutX="129.0" layoutY="540.0" mnemonicParsing="false" onAction="#buscar1Event" text="Buscar marca" />
+      <Button fx:id="mostrarMarcaCodicioada" layoutX="53.0" layoutY="502.0" mnemonicParsing="false" text="¿Cuál será, la marca de vehículos más alquilada?" />
+      <Separator layoutX="379.0" layoutY="449.0" orientation="VERTICAL" prefHeight="221.0" prefWidth="6.0" />
+      <DatePicker fx:id="dateInicioInfo1" layoutX="551.0" layoutY="502.0" />
+      <Label layoutX="439.0" layoutY="506.0" text="Fecha de inicio:" />
+      <Label layoutX="455.0" layoutY="463.0" text="Ganancias totales en un rango de fechas.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="439.0" layoutY="549.0" text="Fecha final:" />
+      <DatePicker fx:id="dateFinalInfo1" layoutX="551.0" layoutY="544.0" />
+      <Button fx:id="gananciasTotales" layoutX="561.0" layoutY="629.0" mnemonicParsing="false" onAction="#gananciasTotalEvent" text="Buscar ganancias." />
+      <Button fx:id="gananciasTotalesAqui" layoutX="534.0" layoutY="584.0" mnemonicParsing="false" text="Ganancias totales---&gt;Aquí. " />
+    </children>
+</AnchorPane>

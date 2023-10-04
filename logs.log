@@ -1,0 +1,100 @@
+oct. 03, 2023 10:48:46 P. M. alquilafacil.model.AlquilaFacil <init>
+INFO: Se crea una nueva instancia de AlquilaFacil
+oct. 03, 2023 10:48:59 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: cliente registrado con exito 12345678
+oct. 03, 2023 10:49:15 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: vehiculo registrado put123
+oct. 03, 2023 10:49:22 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: La marca mas codiciada es nissan
+oct. 03, 2023 10:49:52 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: vehiculo registrado put123
+factura generada Nombre del cliente nicolasCedula del cliente 12345678Nombre del vehiculo 3131Modelo del vehiculo 2005Marca del vehiculo nissanFecha de inicio del alquiler 2023-10-03Fecha de entrega del vehciulo 2023-10-04Fecha del registro del alquiler 1
+oct. 03, 2023 10:50:07 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: La marca mas codiciada es nissan
+oct. 03, 2023 11:22:01 P. M. alquilafacil.model.AlquilaFacil <init>
+INFO: Se crea una nueva instancia de AlquilaFacil
+oct. 03, 2023 11:22:11 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: cliente registrado con exito 12345678
+oct. 03, 2023 11:22:11 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: se han limpiado todos los campos en cliente 
+oct. 03, 2023 11:22:42 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: vehiculo registrado put123
+oct. 03, 2023 11:22:42 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: campo limpiado correctamente en vehiculo
+oct. 03, 2023 11:22:58 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: vehiculo registrado put123
+factura generada Nombre del cliente nicolasCedula del cliente 12345678Nombre del vehiculo 3131Modelo del vehiculo 2005Marca del vehiculo nissanFecha de inicio del alquiler 2023-10-03Fecha de entrega del vehciulo 2023-10-04Fecha del registro del alquiler 1
+oct. 03, 2023 11:23:09 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: la factura se ha mostrado con exito 
+oct. 03, 2023 11:23:09 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: campos limpiados con exito en alquiler
+oct. 03, 2023 11:26:21 P. M. alquilafacil.model.AlquilaFacil <init>
+INFO: Se crea una nueva instancia de AlquilaFacil
+oct. 03, 2023 11:26:31 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: cliente registrado con exito 12345678
+oct. 03, 2023 11:26:31 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: se han limpiado todos los campos en cliente 
+oct. 03, 2023 11:27:00 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: vehiculo registrado put123
+oct. 03, 2023 11:27:00 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: campo limpiado correctamente en vehiculo
+oct. 03, 2023 11:27:34 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: vehiculo registrado put123
+factura generada Nombre del cliente nicolas
+Cedula del cliente 
+12345678
+Nombre del vehiculo 
+3131
+Modelo del vehiculo 
+2004
+Marca del vehiculo 
+nissan
+Fecha de inicio del alquiler 2023-10-03
+Fecha de entrega del vehciulo 2023-10-04
+Fecha del registro del alquiler 
+2023-10-03T23:27:34.321725300
+oct. 03, 2023 11:27:38 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: la factura se ha mostrado con exito 
+oct. 03, 2023 11:27:38 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFO: campos limpiados con exito en alquiler
+oct. 03, 2023 11:34:36 P. M. alquilafacil.model.AlquilaFacil <init>
+INFORMACIÓN: Se crea una nueva instancia de AlquilaFacil
+oct. 03, 2023 11:34:53 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFORMACIÓN: cliente registrado con exito 12345678
+oct. 03, 2023 11:34:53 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFORMACIÓN: se han limpiado todos los campos en cliente 
+oct. 03, 2023 11:36:02 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFORMACIÓN: vehiculo registrado hyg456
+oct. 03, 2023 11:36:02 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFORMACIÓN: campo limpiado correctamente en vehiculo
+oct. 03, 2023 11:38:05 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFORMACIÓN: informacion dada a conocer con exito 
+oct. 03, 2023 11:38:06 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFORMACIÓN: informacion dada a conocer con exito 
+oct. 03, 2023 11:38:09 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFORMACIÓN: La marca mas codiciada es 
+oct. 03, 2023 11:38:39 P. M. alquilafacil.model.AlquilaFacil <init>
+INFORMACIÓN: Se crea una nueva instancia de AlquilaFacil
+oct. 03, 2023 11:38:55 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFORMACIÓN: cliente registrado con exito 12345678
+oct. 03, 2023 11:38:55 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFORMACIÓN: se han limpiado todos los campos en cliente 
+oct. 03, 2023 11:39:35 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFORMACIÓN: vehiculo registrado sdf456
+oct. 03, 2023 11:39:35 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFORMACIÓN: campo limpiado correctamente en vehiculo
+oct. 03, 2023 11:40:13 P. M. alquilafacil.model.AlquilaFacil generarLoggerInformativo
+INFORMACIÓN: vehiculo registrado sdf456
+factura generada Nombre del cliente maria
+Cedula del cliente 
+12345678
+Nombre del vehiculo 
+kjdnc
+Modelo del vehiculo 
+2003
+Marca del vehiculo 
+nissan
+Fecha de inicio del alquiler 2023-10-04
+Fecha de entrega del vehciulo 2023-10-12
+Fecha del registro del alquiler 
+2023-10-03T23:40:13.316726
